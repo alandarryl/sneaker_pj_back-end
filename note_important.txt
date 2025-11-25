@@ -6,9 +6,6 @@ PORT=8000
 # MONGO_URI = "mongodb://localhost:27017"
 
 
-MONGO_URI="mongodb+srv://jonathano_kana_dev:alanDarrylDev21@cluster0.siikemt.mongodb.net/?appName=Cluster0"
-
-
 DB_NAME="utilisateur"
 
 
