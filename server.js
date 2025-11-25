@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 const dotenv = require('dotenv');
 const mongoose = require('mongoose');
 const app = express();
@@ -7,7 +8,7 @@ dotenv.config();
 
 // MIDDLEWARE 
 app.use(express.json()); // Pour parser le corps des requêtes en JSON
-
+app.use(cors())
 
 // ROUTES
 const sneakersRouter = require('./rooter/sneakers.router');
